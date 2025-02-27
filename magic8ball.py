@@ -3,7 +3,7 @@ import random
 responses = [
     "I don't think so, girl.",
     "Outlook hazy, try asking your therapist.",
-    "Reply hazy, ask again after you've had coffee.",
+    "Reply hazy, ask again after I've had coffee.",
     "Don't count on it, unless you're feeling lucky... punk.",
     "As I see it, yeah... but I've been wrong before. (Rarely.)",
     "It is decidedly so... if you're into that sort of thing.",
@@ -18,8 +18,8 @@ responses = [
 
 ]
 
-question = input("Ask me anything... if you're brave: ")
+question = input("Ask me anything... if you're brave... ")
 
 response = random.choice(responses)
 
-print(response)
+print(response + '♥') 
